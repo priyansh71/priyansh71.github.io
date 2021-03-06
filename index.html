@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
+	<link href="index.css" rel="stylesheet">
+    <title>Portfolio Page</title>
+</head>
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-md bg-light navbar-light sticky-top" style="background-image: url(./reso.jpg);">
+    
+    <!-- Brand -->
+    <a class="navbar-brand" href="#"><h3  class="display-4 font-weight-light">Priyansh</h3></a> 
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">     
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#achievments">Achievments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        
+      </ul>
+    </div>
+</nav>
+<!--Personal info-->
+<button type="button" class="data" data-toggle="collapse" data-target="#info">
+    <!-- <hr class="hr-t"> -->
+        <blockquote class="blockquote text-center" >
+            <h1 class="display-5 id="Profile">Profile</h1>
+        </blockquote>
+</button>
+<div id="info" class="collapse">
+    <div class="container-fluid">
+        <div class="row text-center" style="padding-top: 30px; padding-bottom: 20px;">
+                <img src="./pi.jpg" class="avatar">
+        </div>
+        <div class="row text-center" style="padding: 40px;">
+            <div class="col-sm-12 col-md-4 style alpha">
+                Majoring in Computer Science from BITS Pilani Goa Campus.
+            </div>
+            <div class="col-sm-12 col-md-4 style beta">
+                    Junior Developer at Developer's Society, Goa Campus.
+            </div>
+            
+            <div class="col-sm-12 col-md-4 style gamma">
+                Member of BITSKreig, Goa Campus.
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Education Carousel-->
+<hr class="hr-t">
+    <blockquote id="education" class="blockquote text-center" style="padding: 6px;">
+        <h1 class="display-5" style="padding: 6px;color: #20052c;">Education</h1>
+    </blockquote>
+<hr class="hr-b">
+<div id="slider" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slider" data-slide-to="0" class="active"></li>
+        <li data-target="#slider" data-slide-to="1"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+             <div class="image"><img src="campus.jpg"></div>
+             <div class="carousel-caption">
+            	<h1 class="font-weight-light" style="font-size: 200%;">BITS Pilani Goa Campus</h1>
+                <p class="font-italic" style="font-size: 130%;">2020-24.</p>
+            </div>
+        </div>
+        
+        <div class="carousel-item">
+            <div class="image"><img src="school.jpg"></div>
+            <div class="carousel-caption">
+            	<h1 class="font-weight-light" style="font-size: 200%;">Bikaner Boys' School</h1>
+                <p class="font-italic" style="font-size: 130%;">2008-18.</p>           
+             </div>
+        </div>
+    </div>
+</div>
+<!--Achievments space-->
+<hr class="hr-t">
+<blockquote id= "achievments" class="blockquote text-center" style="padding: 16px;">
+    <h1 class="display-5" style="padding: 6px;color: #20052c;">Achievments</h1>
+    <!-- <h1><i class="fas fa-award"></i></h1> -->
+</blockquote>
+<hr class="hr-b">
+<div class="container-fluid" style="padding: 50px;" >
+    <div class="row text-center">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <h1><i class="fas fa-flask"></i></h1>
+            <h1>CBSE 12th Grade</h1>
+            <p class="font">Scored 96.2%.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+           <h1> <i class="fas fa-pen"></i> </h1>
+            <h1>JEE Mains 2020</h1>
+            <p class="font">Achieved AIR-5026</p>
+
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <h1><i class="fas fa-trophy"></i></h1> 
+            <h1>JEE Advanced 2020</h1>
+            <p class="font">Achieved AIR-3277</p>
+
+        </div>
+
+    </div>
+
+</div>
+<!--Skill cards-->
+<hr class="hr-t">
+<blockquote id= "skills" class="blockquote text-center" style="padding: 16px;">
+    <h1 class="display-5" style="padding: 6px;color: #20052c;">Skills</h1>
+    <!-- <h1><i class="fas fa-atom"></i></h1> -->
+</blockquote>
+<hr class="hr-b">
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="web.png" style="padding: 30px;">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Basic Web Development</h5>
+                    <p class="card-text text-center">Using HTML5 , CSS and Bootstrap4 to make responsive webpages.</p>
+                </div>    
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="git.png" style="padding: 30px;">
+
+                <div class="card-body">
+                    <h5 class="card-title text-center"> Git and GitHub basics</h5>
+                    <p class="card-text text-center">Coordinating work among programmers while developing code.</p>
+                </div>    
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="c++.jpg" style="padding: 30px;">
+
+                <div class="card-body">
+                    <h5 class="card-title text-center">C++ basics</h5>
+                    <p class="card-text text-center">Mathematical and logical problem solving using the C++ programming language.</p>
+                </div>    
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-center">12th Grade</h5>
+                    <p class="card-text text-center">Scored 96.2%.</p>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+<script src="dom.js"></script>
+</body>
+</html>
