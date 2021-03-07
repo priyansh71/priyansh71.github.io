@@ -1,18 +1,23 @@
 .carousel-inner img {
-  max-height: 20% !important;
+  height: 20% !important;
+  width: 100;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.carousel-caption {
+  max-width: 100%;
+}
+.class {
+  height: 100%;
+  width: 100%;
 }
 .lead {
   font-size: 40px;
 }
 .fas {
   font-size: 10%;
-}
-
-.font-italic {
-  text-shadow: 3px;
 }
 .navbar-nav {
   font-size: 2em;
@@ -30,12 +35,8 @@
 .fa-flask {
   color: #760c27;
 }
-.display-5 {
-  font-family: monospace;
-  font-weight: 500;
-}
 .font {
-  font-weight: 500;
+  font-weight: 100;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .nav-link {
@@ -50,30 +51,36 @@
   color: #20052c;
   padding-top: 40px;
   padding-bottom: 30px;
+  font-family: ;
 }
 .data.active {
   width: 100%;
   color: #e9d3f3;
-  background-color: rgb(5, 20, 29);
+  background-image: url(./galaxy.jpg);
+  font-family: monospace;
   padding-top: 40px;
   padding-bottom: 30px;
 }
 .hola {
-  padding: 16px;
   color: #20052c;
-  font-family: monospace;
+  font-family: "Tangerine";
+  font-size: 70px;
 }
 .hola.active {
+  background-image: url(./stairs.jpg);
+  width: 100%;
+  color: #e4e7ec;
+  font-weight: 500;
+  font-size: 70px;
+  font-family: "Tangerine";
   font-style: italic;
-  font-family: cursive;
-  background-color: rgb(5, 20, 29);
-  color: whitesmoke;
 }
 hr {
   border-top: 2px solid grey;
   width: 50%;
 }
 hr.active {
+  padding-bottom: 25px;
   border-top: 2px solid grey;
   width: 50%;
 }
@@ -81,6 +88,7 @@ hr.active {
   font-weight: 500;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #070f07;
+  font-size: 20px;
 }
 .avatar {
   /* vertical-align: middle; */
@@ -134,4 +142,17 @@ hr.active {
   padding-top: 10px;
   padding-left: 5px;
   padding-right: 5px;
+  padding-bottom: 10px;
+}
+.fiesta {
+  border: 2px solid ghostwhite;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.fiesta.active {
+  border: 0.5px solid rgb(200, 200, 200);
+}
+.icon {
+  color: black;
+  font-size: 250%;
 }

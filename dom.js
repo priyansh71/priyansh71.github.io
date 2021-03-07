@@ -2,7 +2,6 @@ const button = document.querySelector(".data");
 
 button.addEventListener("click", () => {
   button.classList.toggle("active");
-  console.log("lol");
 }, false);
 
 const hola = document.querySelectorAll(".hola");
@@ -14,6 +13,12 @@ hola.forEach(item => item.addEventListener("mouseover", () => {
   const hooray = document.querySelectorAll("hr");
 hooray.forEach(lol => lol.addEventListener("mouseover", () => {
   lol.classList.toggle("active");
+}),
+  false);
+
+  const hello = document.querySelectorAll(".fiesta");
+hello.forEach(infinite=> infinite.addEventListener("mouseover", () => {
+  infinite.classList.toggle("active");
 }),
   false);
 
