@@ -16,6 +16,12 @@ hooray.forEach(lol => lol.addEventListener("mouseover", () => {
 }),
   false);
 
+  const JS = document.querySelector(".JS");
+JS.addEventListener("mouseover", () => {
+  JS.classList.toggle("active");
+},
+  false);
+
   const hello = document.querySelectorAll(".fiesta");
 hello.forEach(infinite=> infinite.addEventListener("mouseover", () => {
   infinite.classList.toggle("active");

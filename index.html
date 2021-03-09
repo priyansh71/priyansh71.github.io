@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Tangerine"> 
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Zilla+Slab"> 
-    <link href="index.css" rel="stylesheet">
-    <title>Portfolio Page</title>  
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Satisfy"> 
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Courgette"> 
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Parisienne"> 
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Gentium+Basic
+        ">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script">
+        <link href="index.css" rel="stylesheet">
+        <title>Portfolio Page</title>  
+    </head>
 
-    <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top" style="background-image: url(./reso.jpg);">
+    <body>
+
+<!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top" style="background-image: url(./reso.jpg);">
         
         <!-- Brand -->
-        <a class="navbar-brand" href="#"><h3  class="display-4 font-weight-light">Priyansh</h3></a> 
+        <a class="navbar-brand" href="#"><h3  class="display-4" style="font-family: 'Satisfy'; font-size: 60px;">Priyansh</h3></a> 
         <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
         </button> 
         <!-- Navbar links -->
@@ -38,78 +49,100 @@
             <li class="nav-item">
             <a class="nav-link" href="#skills">Skills</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+            </li>
             
         </ul>
         </div>
     </nav>
+
+<!--Profile Button-->
  <div style="padding: 50px 0px 50px 0 px;">  
-    <button type="button" class="data css-selector" data-toggle="collapse" data-target="#info" >
+    <button type="button" class="data" data-toggle="collapse" data-target="#info" >
                 <blockquote id="Profile" class="blockquote text-center" >
-                    <h1 style="font-family: 'Tangerine'; font-size: 60px;">Profile</h1>
+                    <h1 style="font-family: 'Parisienne'; font-size: 60px;">Profile</h1>
                 </blockquote>
     </button>
 </div>  
+
+<!--Information-->
 <div id="info" class="collapse">
     <div class="container-fluid">
-        <div class="row text-center" style="padding-top: 30px; padding-bottom: 20px;">
+        <div class="row text-center" style="padding-top: 20px; padding-bottom: 20px;">
                 <img src="./pi.jpg" class="avatar">
         </div>
-        <div class="row text-center" style="padding: 40px;">
-            <div class="col-sm-12 col-md-4 style alpha">
-                Majoring in Computer Science from BITS Pilani Goa Campus.
-            </div>
-            <div class="col-sm-12 col-md-4 style beta">
+    </div>    
+    <hr>
+    <div class="container-fluid">
+        <div class="row text-center"  style="padding: 20px;">
+            <span class="col-sm-12 col-md-3" style="font-family: 'Nanum Pen Script'; font-size: 40px;">
+                Majoring in Computer Science from BITS Pilani University, Goa Campus.
+            </span>
+            <hr>
+            <span class="col-sm-12 col-md-3" style="font-family: 'Nanum Pen Script'; font-size: 40px;">
                     Junior Developer at Developer's Society, Goa Campus.
-            </div>
-            
-            <div class="col-sm-12 col-md-4 style gamma">
+            </span>
+            <hr>
+            <span class="col-sm-12 col-md-3" style="font-family: 'Nanum Pen Script'; font-size: 40px;">
                 Member of BITSKreig, Goa Campus.
-            </div>
+            </span>
         </div>
     </div>
 </div>
 
-<!-- Education Carousel-->
-</div>
+<!--Education header-->
 <div>
     <blockquote id="education" class= "blockquote text-center hola">
-        <hr>
+        <hr class="hrt">
             <div>Education</div>
-        <hr>
+        <hr class="hrb">
     </blockquote>
 </div>
 
-<div id="slider" class="carousel slide" data-ride="carousel" style="padding: 50px;">
-    <ul class="carousel-indicators">
-        <li data-target="#slider" data-slide-to="0" class="active"></li>
+<!--Education carousel-->
+<div id="slider" class="carousel slide" data-ride="carousel" style="padding: 10px;">
+    <ul class="carousel-indicators" >
+        <li data-target="#slider" data-slide-to="0" class="active" ></li>
         <li data-target="#slider" data-slide-to="1"></li>
     </ul>
     <div class="carousel-inner">
         <div class="carousel-item active">
-             <div class="image"><img src="campus.jpg"></div>
-             <div class="carousel-caption">
-            	<h1 class="font-weight-light" style=";font-size: 200%;">BITS Pilani Goa Campus</h1>
-                <p class="font-italic" style="font-size: 100%;">2020-24.</p>
-            </div>
-        </div>
-        
-        <div class="carousel-item">
             <div class="image"><img src="school.jpg"></div>
             <div class="carousel-caption">
             	<h1 class="font-weight-light" style="font-size: 200%;">Bikaner Boys' School</h1>
                 <p class="font-italic" style="font-size: 100%;">2008-18.</p>           
-             </div>
+            </div>
         </div>
-    </div>
+        <div class="carousel-item">
+             <div class="image"><img src="campus.jpg"></div>
+             <div class="carousel-caption">
+            	<h1 class="font-weight-light" style="font-size: 200%;">BITS Pilani Goa Campus</h1>
+                <p class="font" style="font-size: 100%;">2020-24.</p>
+            </div>
+        </div>
+    </div>    
+        <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon lol" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon lol" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    
 </div>
-<!--Achievments space-->
+
+<!--Achievments header-->
 <div>
     <blockquote id= "achievments" class="blockquote text-center hola">
-        <hr>
+        <hr class="hrt">
             <div>Achievments</div>
-        <hr>
+        <hr class="hrb">
     </blockquote>
 </div>
+
+<!--Achievments data-->
 <div class="container-fluid" style="padding: 50px;" >
     <div class="row text-center">
         <div class="col-sm-12 col-md-6 col-lg-4 fiesta">
@@ -121,102 +154,104 @@
            <h1> <i class="fas fa-pen"></i> </h1>
             <h1>JEE Mains 2020</h1>
             <p class="font">Achieved AIR-5026</p>
-
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 fiesta" >
+        <div class="col-sm-12 col-md-12 col-lg-4 fiesta" >
             <h1><i class="fas fa-trophy"></i></h1> 
             <h1>JEE Advanced 2020</h1>
             <p class="font">Achieved AIR-3277</p>
-
         </div>
-
     </div>
-
 </div>
-<!--Skill cards-->
+
+<!--Skills header-->
 <div>
 <blockquote id= "skills" class="blockquote text-center hola">
-    <hr>
+    <hr class="hrt">
         <div>Skills</div>
-    <hr>
+    <hr class="hrb">
 </blockquote>
 </div>
 
+<!--Skills data-->
 <div class="container-fluid" style="padding: 50px;">
     <div class="row padding">
-        <div class="col-md-3">
+        <div class="col-md-4 col-sm-6">
             <div class="card">
-                <img class="card-img-top" src="web.png">
+                <img class="card-img-top" src="web.png" style="  padding: 20px 50px 20px 50px;">
                 <div class="card-body">
                     <h5 class="card-title text-center style">Basic Web Development</h5>
-                    <p class="card-text text-center font">Using HTML5 , CSS and Bootstrap4 to make responsive webpages.</p>
+                    <p class="card-text text-center font">Using JavaScript , CSS3 and Bootstrap4 to make responsive webpages.</p>
                 </div>    
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4 col-sm-6">
             <div class="card">
-                <img class="card-img-top" src="git.png">
+                <img class="card-img-top" src="git.png" style="  padding: 15px 10px 15px 10px;">
 
-                <div class="card-body">
+                <div class="card-body" >
                     <h5 class="card-title text-center style"> Git and GitHub basics</h5>
-                    <p class="card-text text-center font">Coordinating work among programmers while developing code.</p>
+                    <p class="card-text text-center font">Coordinating work among programmers during development.</p>
                 </div>    
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4 col-sm-6">
             <div class="card">
-                <img class="card-img-top" src="c++.png" style="  padding-left: 50px;padding-right: 50px;">
-                <div class="card-body">
+                <img class="card-img-top" src="c++.png" style="  padding: 10px 40px 10px 40px;">
+                <div class="card-body"  style="  padding: 10px 40px 10px 40px;">
                     <h5 class="card-title text-center style">C++ basics</h5>
                     <p class="card-text text-center font">Logical problem solving using the C++ programming language.</p>
                 </div>    
             </div>
         </div>
-        <div class="col-md-3">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title text-center">12th Grade</h5>
-                    <p class="card-text text-center">Scored 96.2%.</p>
-                </div>    
-            </div>
-        </div>
     </div>
 </div>
-<div class="container-fluid" style=" padding: 50px; ">
+
+<!--Footer section-->
+<div class="container-fluid" id="footer">
     <div class="row text-center">
-        <div class="col-sm-12 col-lg-3" style="padding: 70px; ">
-            <a href="https://www.linkedin.com/in/priyansh-vyas-52a167205"><h1 class="icon"><i class="fab fa-linkedin-in"></i></h1></a>
-            <a href="https://github.com/priyansh71"><h1 class="icon"><i class="fab fa-github"></i></h1></a>
+        <div class="col-sm-12 col-lg-3">
+            <div class="style" style="padding: 50px;"> Find me at:</div>
+            <br>
+            <span class="font " style="padding: 20px; ">linkedin</span>
+            <a href="https://www.linkedin.com/in/priyansh-vyas-52a167205" target="blank"><h1 class="linkedin"><i class="fab fa-linkedin-in"></i></h1></a>
+            <hr>
+            <span class="font">GitHub</span>
+            <a href="https://github.com/priyansh71" target="blank"><h1 class="icon"><i class="fab fa-github"></i></h1></a>
 
         </div>
-        <div class="col-sm-12 col-lg-5"  style="padding: 70px; ">
+        <div class="col-sm-12 col-lg-5"  style="padding: 50px; ">
                 <div>
-                <div class="style">Contact Information</div>
+                <div class="style">Contact Information:</div>
+                <hr>
                 <div class="font">Email Address:</div>
                 <p>meosho32@gmail.com</p>
+                <hr>
                </div>
         </div>
         <div class="col-sm-12 col-lg-4">
-            <div class="font">
+            <div> 
+                <div class="style">Made using:</div>
+                <hr>
                 <ul>
                     <div>
-                        <span class="icon"><i class="fab fa-bootstrap"></i></span>
+                        <span class="bootstrap"><i class="fab fa-bootstrap"></i></span>
                         <span class="font">  Bootstrap4</span>
                     </div>
                     <div>
-                        <span class="icon"><i class="fab fa-css3"></i></span>
-                        <span class="font">  CSS</span>
+                        <span class="FA"><i class="fab fa-font-awesome"></i></span>
+                        <span class="font">fontAwesome</span>
                     </div>
                     <div>
-                        <span class="icon"><i class="fab fa-js-square"></i></span>
+                        <span class="css"><i class="fab fa-css3-alt"></i></span>
+                        <span class="font">  CSS3</span>
+                    </div>
+                    <div>
+                        <span class="JS"><i class="fab fa-js"></i></span>
                         <span class="font">  JavaScript</span>
                     </div>
+                    
                     <div>
-                        <span class="icon"><i class="fab fa-font-awesome-flag"></i></span>
-                        <span class="font">  fontAwesome.com</span>
-                    </div>
-                    <div>
-                        <span class="icon"><i class="fab fa-google"></i></span>
+                        <span class="Google"><i class="fab fa-google"></i></span>
                         <span class="font">  Google Fonts</span>
                     </div>
                 </ul>
@@ -225,6 +260,8 @@
         </div>
     </div>
 </div>
+
+
 <script src="dom.js"></script>
 </body>
 </html>

@@ -1,11 +1,16 @@
 .carousel-inner img {
   height: 20% !important;
-  width: 100;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+.carousel-indicators .active {
+  background-color: whitesmoke;
+}
 
+.lol {
+  background-color: #20052c;
+}
 .carousel-caption {
   max-width: 100%;
 }
@@ -20,7 +25,7 @@
   font-size: 10%;
 }
 .navbar-nav {
-  font-size: 2em;
+  font-size: 2.1em;
 }
 .navbar-nav li {
   padding: 10px;
@@ -38,28 +43,32 @@
 .font {
   font-weight: 100;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 112%;
 }
 .nav-link {
   color: #e59ff5;
+  font-family: "Courgette";
 }
 .nav-link.active {
   color: #000000;
+}
+.card-text {
+  max-width: 100%;
 }
 .data {
   width: 100%;
   background-color: white;
   color: #20052c;
-  padding-top: 40px;
+  padding-top: 30px;
   padding-bottom: 30px;
-  font-family: ;
 }
 .data.active {
   width: 100%;
   color: #e9d3f3;
   background-image: url(./galaxy.jpg);
   font-family: monospace;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .hola {
   color: #20052c;
@@ -75,11 +84,20 @@
   font-family: "Tangerine";
   font-style: italic;
 }
-hr {
-  border-top: 2px solid grey;
-  width: 50%;
+#footer {
+  padding: 50px;
+  background-image: url(./hello.jpg);
 }
-hr.active {
+
+hr {
+  border: 1px solid whitesmoke;
+}
+.hrt {
+  border-top: 2px solid black;
+  width: 50%;
+  padding-bottom: 25px;
+}
+.hrb {
   padding-bottom: 25px;
   border-top: 2px solid grey;
   width: 50%;
@@ -99,7 +117,7 @@ hr.active {
   margin-left: auto !important;
   margin-right: auto !important;
 }
-.alpha {
+/* .alpha {
   position: relative;
   animation: mymove 5s;
   animation-iteration-count: 1;
@@ -113,6 +131,8 @@ hr.active {
   }
 }
 .beta {
+  display: flex;
+  align-content: center;
   position: relative;
   animation: mymove1 5s;
   animation-iteration-count: 1;
@@ -137,7 +157,7 @@ hr.active {
   to {
     left: 55px;
   }
-}
+} */
 .card-img-top {
   padding-top: 10px;
   padding-left: 5px;
@@ -152,7 +172,36 @@ hr.active {
 .fiesta.active {
   border: 0.5px solid rgb(200, 200, 200);
 }
+.fab.fa-linkedin-in {
+  color: #212fcc;
+  font-size: 250%;
+}
 .icon {
   color: black;
   font-size: 250%;
+}
+.bootstrap {
+  color: #b82ed0;
+  font-size: 225%;
+}
+.JS {
+  color: yellow;
+  font-size: 225%;
+}
+.JS.active {
+  background-color: #daf5ef;
+  color: yellow;
+  font-size: 250%;
+}
+.css {
+  color: orangered;
+  font-size: 225%;
+}
+.Google {
+  color: #1ebde9;
+  font-size: 225%;
+}
+.FA {
+  color: #165dd8;
+  font-size: 225%;
 }
