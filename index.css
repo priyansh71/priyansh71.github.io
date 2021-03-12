@@ -7,7 +7,13 @@
 .carousel-indicators .active {
   background-color: whitesmoke;
 }
-
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 50px 70px 50px 70px;
+}
 .lol {
   background-color: #20052c;
 }
@@ -15,8 +21,8 @@
   max-width: 100%;
 }
 .class {
-  height: 100%;
-  width: 100%;
+  align-self: center;
+  width: 80%;
 }
 .lead {
   font-size: 40px;
@@ -25,20 +31,26 @@
   font-size: 10%;
 }
 .navbar-nav {
-  font-size: 2.1em;
+  font-size: 1.7em;
 }
 .navbar-nav li {
-  padding: 10px;
+  padding: 8px;
 }
 
 .fa-pen {
-  color: #126c2f;
+  color: #e24718;
+  font-size: 200%;
+  padding: 10px;
 }
 .fa-trophy {
-  color: #09204c;
+  color: #123e91;
+  font-size: 200%;
+  padding: 10px;
 }
 .fa-flask {
-  color: #760c27;
+  color: #2a0438;
+  font-size: 200%;
+  padding: 10px;
 }
 .font {
   font-weight: 100;
@@ -70,12 +82,13 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.hola {
+.hola.active {
   color: #20052c;
   font-family: "Tangerine";
+  background: white;
   font-size: 70px;
 }
-.hola.active {
+.hola {
   background-image: url(./stairs.jpg);
   width: 100%;
   color: #e4e7ec;
@@ -84,11 +97,11 @@
   font-family: "Tangerine";
   font-style: italic;
 }
-#footer {
-  padding: 50px;
-  background-image: url(./hello.jpg);
+.head {
+  font-family: Architects Daughter;
+  font-size: 300%;
+  color: #2a0438;
 }
-
 hr {
   border: 1px solid whitesmoke;
 }
@@ -97,6 +110,11 @@ hr {
   width: 50%;
   padding-bottom: 25px;
 }
+.profile {
+  font-family: Caveat;
+  font-size: 220%;
+}
+
 .hrb {
   padding-bottom: 25px;
   border-top: 2px solid grey;
@@ -172,13 +190,29 @@ hr {
 .fiesta.active {
   border: 0.5px solid rgb(200, 200, 200);
 }
-.fab.fa-linkedin-in {
-  color: #212fcc;
-  font-size: 250%;
+.linkedin {
+  color: #51adf0;
+  font-size: 390%;
+}
+.instagram {
+  color: #ee24b8;
+  font-size: 390%;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 50px 70px 50px 70px;
+  background-image: url(/);
 }
 .icon {
   color: black;
-  font-size: 250%;
+  font-size: 390%;
+}
+.mail {
+  color: rgb(169, 29, 29);
+  font-size: 390%;
 }
 .bootstrap {
   color: #b82ed0;
@@ -189,7 +223,7 @@ hr {
   font-size: 225%;
 }
 .JS.active {
-  background-color: #daf5ef;
+  background-color: #ffffff;
   color: yellow;
   font-size: 250%;
 }
