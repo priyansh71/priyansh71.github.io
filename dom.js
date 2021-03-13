@@ -1,35 +1,28 @@
-const button = document.querySelector(".data");
-
-button.addEventListener("click", () => {
+document.querySelector(".data").addEventListener("click", () => {
   button.classList.toggle("active");
-}, false);
+}), false;
 
-const hola = document.querySelectorAll(".hola");
-hola.forEach(item => item.addEventListener("mouseover", () => {
+document.querySelectorAll(".hola").forEach(item => item.addEventListener("mouseover", () => {
   item.classList.toggle("active");
 }),
   false);
 
-  const hooray = document.querySelectorAll("hr");
-hooray.forEach(lol => lol.addEventListener("mouseover", () => {
+document.querySelectorAll("hr").forEach(lol => lol.addEventListener("mouseover", () => {
   lol.classList.toggle("active");
 }),
   false);
 
-  const JS = document.querySelector(".JS");
-JS.addEventListener("mouseover", () => {
-  JS.classList.toggle("active");
-},
+document.querySelectorAll(".contact").forEach(notokay => notokay.addEventListener("mouseover", () => {
+  notokay.classList.toggle("active");
+}),
   false);
 
-  const hello = document.querySelectorAll(".fiesta");
-hello.forEach(infinite=> infinite.addEventListener("mouseover", () => {
+document.querySelectorAll(".fiesta").forEach(infinite=> infinite.addEventListener("mouseover", () => {
   infinite.classList.toggle("active");
 }),
   false);
 
-const nav= document.querySelectorAll(".nav-link"); 
-nav.forEach(haha => haha.addEventListener("click", () => {
+document.querySelectorAll(".nav-link").forEach(haha => haha.addEventListener("click", () => {
   haha.classList.toggle("active");
 }),
   false);

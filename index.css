@@ -24,9 +24,6 @@
   align-self: center;
   width: 80%;
 }
-.lead {
-  font-size: 40px;
-}
 .fas {
   font-size: 10%;
 }
@@ -34,32 +31,37 @@
   font-size: 1.7em;
 }
 .navbar-nav li {
-  padding: 8px;
+  padding: 5px;
 }
 
 .fa-pen {
-  color: #e24718;
   font-size: 200%;
   padding: 10px;
 }
 .fa-trophy {
-  color: #123e91;
+  color: #ac1010;
   font-size: 200%;
   padding: 10px;
 }
 .fa-flask {
-  color: #2a0438;
+  color: #381d42;
   font-size: 200%;
   padding: 10px;
 }
+.font1 {
+  font-family: Courgette;
+  font-weight: 200;
+  font-size: 120%;
+}
 .font {
-  font-weight: 100;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 112%;
+  font-weight: 400;
+  font-family: "Caveat";
+  font-size: 200%;
+  color: #000000;
 }
 .nav-link {
   color: #e59ff5;
-  font-family: "Courgette";
+  font-family: "Playball";
 }
 .nav-link.active {
   color: #000000;
@@ -69,15 +71,14 @@
 }
 .data {
   width: 100%;
-  background-color: white;
   color: #20052c;
+  background-color: white;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 .data.active {
   width: 100%;
-  color: #e9d3f3;
-  background-image: url(./galaxy.jpg);
+  background-image: url(./pics/galaxy.jpg);
   font-family: monospace;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -85,17 +86,18 @@
 .hola.active {
   color: #20052c;
   font-family: "Tangerine";
-  background: white;
-  font-size: 70px;
+  background: #f3f3f1;
+  font-size: 80px;
 }
 .hola {
-  background-image: url(./stairs.jpg);
   width: 100%;
-  color: #e4e7ec;
+  color: whitesmoke;
   font-weight: 500;
-  font-size: 70px;
+  font-size: 80px;
   font-family: "Tangerine";
+  background-image: url(./pics/leaves.jpg);
   font-style: italic;
+  font-weight: lighter;
 }
 .head {
   font-family: Architects Daughter;
@@ -107,24 +109,25 @@ hr {
 }
 .hrt {
   border-top: 2px solid black;
-  width: 50%;
+  width: 65%;
   padding-bottom: 25px;
 }
 .profile {
-  font-family: Caveat;
+  font-family: "Dancing Script";
   font-size: 220%;
+  padding: 10px;
 }
 
 .hrb {
   padding-bottom: 25px;
   border-top: 2px solid grey;
-  width: 50%;
+  width: 65%;
 }
 .style {
-  font-weight: 500;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  font-family: "Ribeye Marrow";
   color: #070f07;
-  font-size: 20px;
+  font-size: 30px;
 }
 .avatar {
   /* vertical-align: middle; */
@@ -192,11 +195,9 @@ hr {
 }
 .linkedin {
   color: #51adf0;
-  font-size: 390%;
 }
 .instagram {
-  color: #ee24b8;
-  font-size: 390%;
+  color: #ba10b7;
 }
 .container1 {
   display: flex;
@@ -204,38 +205,42 @@ hr {
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 50px 70px 50px 70px;
-  background-image: url(/);
+}
+
+.container1 div {
+  padding: 10px;
 }
 .icon {
   color: black;
-  font-size: 390%;
 }
 .mail {
   color: rgb(169, 29, 29);
-  font-size: 390%;
 }
 .bootstrap {
-  color: #b82ed0;
-  font-size: 225%;
-}
-.JS {
-  color: yellow;
-  font-size: 225%;
-}
-.JS.active {
-  background-color: #ffffff;
-  color: yellow;
-  font-size: 250%;
+  color: #741085;
 }
 .css {
   color: orangered;
-  font-size: 225%;
 }
 .Google {
-  color: #1ebde9;
-  font-size: 225%;
+  color: #477cd6;
 }
 .FA {
   color: #165dd8;
-  font-size: 225%;
+}
+.contact {
+  font-size: 390%;
+}
+.contact.active {
+  font-size: 450%;
+}
+.credit {
+  font-size: 280%;
+}
+#footer {
+  max-width: 70%;
+  border: 1.5px solid #20052c;
+}
+.card {
+  background-color: #e7e7e7;
 }

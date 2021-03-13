@@ -13,18 +13,25 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy"> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette"> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Parisienne"> 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gentium+Basic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playball">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ribeye+Marrow">
     <link href="index.css" rel="stylesheet">
 </head>
 <body>
+    <style>
+        body{
+            background-image: url(./pics/pexels.jpg);
+        }
+    </style>
     
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top" style="background-image: url(./reso.jpg);">
+<nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top" style="background-image: url(./pics/reso.jpg);">
     
     <!-- Brand -->
-    <a class="navbar-brand" href="#"><h3  class="display-4" style="font-family: 'Satisfy'; font-size: 60px;">Priyansh Vyas</h3></a> 
+    <a class="navbar-brand" href="#"><h3  class="display-4" style="font-family: 'Satisfy'; font-size: 240%;">Priyansh Vyas</h3></a> 
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -39,11 +46,11 @@
             <a class="nav-link" href="#education">Education</a>
             </li>
         <li class="nav-item">
-        <a class="nav-link" href="#achievments">Achievments</a>
-        </li>
-        <li class="nav-item">
         <a class="nav-link" href="#skills">Skills</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#achievments">Achievments</a>
+            </li>
         <li class="nav-item">
             <a class="nav-link" href="#footer">Contact</a>
         </li>
@@ -62,25 +69,23 @@
     </button>
 </div>
 
-<div id="info" class="collapse">
+<div id="info" class="collapse"  style="background-image:url(./pics/info.jpg);">
     <div class="container-fluid" style="padding: 10px;">
-        <div class="row text-center" style="padding-top: 20px; padding-bottom: 20px;">
-                <img src="./pi.jpg" class="avatar">
+        <div class="row text-center" style="padding-top: 10px; padding-bottom: 5px;">
+                <img src="./pics/pi.jpg" class="avatar">
         </div>
     </div>    
-    <br>
-    <div class="container-fluid">
+    <div class="container-fluid"">
         <div class="row text-center">
             <div class="col-sm-12 col-lg-12" >
-                <div class="head">Introduction</div>
-                <div class="profile" style="padding-right: 40px;padding-left: 40px;">
+                <div class="profile">
                     I am a First Year student from Bikaner in Rajasthan, majoring in Computer Science from BITS Pilani University, K.K. Birla Goa Campus,
                     and will be graduating in the year 2024.
                 </div>
                 <br>
-                <div class="profile" style="padding-bottom: 20px;">
-                    I am an active member of <span ><a href="https://www.linkedin.com/company/devsoc-bpgc/mycompany/"> Developer's Society</a></span> 
-                    and <span><a href="https://www.linkedin.com/company/bitskrieg/mycompany/"> BITSkreig</a></span> at the campus.
+                <div class="profile">
+                    I am an active member of <span><a href="https://devsoc.club/" target="blank"> Developer's Society</a></span> 
+                    and <span><a href="https://www.linkedin.com/company/bitskrieg/mycompany/" target="blank"> BITSkreig</a></span> at the campus.
                 </div>
             </div>
         </div>
@@ -104,17 +109,17 @@
     </ul>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <div class="image"><img src="school.jpg"></div>
+            <div class="image"><img src="./pics/school.jpg"></div>
             <div class="carousel-caption">
             	<h1 class="font-weight-light" style="font-size: 200%;">Bikaner Boys' School</h1>
                 <p class="font-italic" style="font-size: 100%;">2008-18.</p>           
             </div>
         </div>
         <div class="carousel-item">
-             <div class="image"><img src="campus.jpg"></div>
+             <div class="image"><img src="./pics/campus.jpg"></div>
              <div class="carousel-caption">
             	<h1 class="font-weight-light" style="font-size: 200%;">BITS Pilani Goa Campus</h1>
-                <p class="font" style="font-size: 100%;">2020-24.</p>
+                <p class="font-italic" style="font-size: 100%;">2020-24.</p>
             </div>
         </div>
     </div>    
@@ -127,6 +132,50 @@
             <span class="sr-only">Next</span>
         </a>
     
+</div>
+
+
+<!--Skills header-->
+<div>
+<blockquote id= "skills" class="blockquote text-center hola">
+    <hr class="hrt">
+        <div>Skills</div>
+    <hr class="hrb">
+</blockquote>
+</div>
+
+<!--Skills data-->
+<div class="container-fluid" style="padding: 50px;">
+    <div class="row">
+        <div class="col-md-4 col-sm-6">
+            <div class="card">
+                <img class="card-img-top" src="./pics/web.png" style="  padding: 20px 50px 20px 50px;">
+                <div class="card-body">
+                    <h5 class="card-title text-center style">Basic Web Development</h5>
+                    <p class="card-text text-center font">Using JavaScript , CSS3 and Bootstrap4 to make responsive webpages.</p>
+                </div>    
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="card">
+                <img class="card-img-top" src="./pics/git.png" style="  padding: 15px 10px 15px 10px;">
+
+                <div class="card-body" >
+                    <h5 class="card-title text-center style"> Git and GitHub basics</h5>
+                    <p class="card-text text-center font">Coordinating work among programmers during development.</p>
+                </div>    
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="card">
+                <img class="card-img-top" src="./pics/c++.png" style="  padding: 20px 40px 20px 40px;">
+                <div class="card-body"  style="  padding: 10px 40px 10px 40px;">
+                    <h5 class="card-title text-center style">C++ basics</h5>
+                    <p class="card-text text-center font">Logical problem solving using the C++ programming language.</p>
+                </div>    
+            </div>
+        </div>
+    </div>
 </div>
 
 <!--Achievments header-->
@@ -143,98 +192,31 @@
     <div class="row text-center">
         <div class="col-sm-12 col-md-6 col-lg-4 fiesta">
             <h1><i class="fas fa-flask"></i></h1>
-            <h1>CBSE 12th Grade</h1>
-            <p class="font">Scored 96.2%.</p>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 fiesta">
-           <h1> <i class="fas fa-pen"></i> </h1>
-            <h1>JEE Mains 2020</h1>
-            <p class="font">Achieved AIR-5026</p>
+            <h2 style="font-family: Ribeye Marrow;">CBSE 12th Grade</h2>
+            <p class="font1">Scored 96.2%.</p>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4 fiesta" >
             <h1><i class="fas fa-trophy"></i></h1> 
-            <h1>JEE Advanced 2020</h1>
-            <p class="font">Achieved AIR-3277</p>
+            <h2 style="font-family: Ribeye Marrow;">JEE Advanced 2020</h2>
+            <p class="font1">Achieved AIR-3277</p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 fiesta">
+           <h1> <i class="fas fa-pen"></i> </h1>
+           <h2 style="font-family: Ribeye Marrow;">JEE Main 2020</h2>
+           <p class="font1">Achieved AIR-5026</p>
         </div>
     </div>
 </div>
 
-<!--Skills header-->
-<div>
-<blockquote id= "skills" class="blockquote text-center hola">
-    <hr class="hrt">
-        <div>Skills</div>
-    <hr class="hrb">
-</blockquote>
-</div>
-
-<!--Skills data-->
-<div class="container-fluid" style="padding: 50px;">
-    <div class="row padding">
-        <div class="col-md-4 col-sm-6">
-            <div class="card">
-                <img class="card-img-top" src="web.png" style="  padding: 20px 50px 20px 50px;">
-                <div class="card-body">
-                    <h5 class="card-title text-center style">Basic Web Development</h5>
-                    <p class="card-text text-center font">Using JavaScript , CSS3 and Bootstrap4 to make responsive webpages.</p>
-                </div>    
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-            <div class="card">
-                <img class="card-img-top" src="git.png" style="  padding: 15px 10px 15px 10px;">
-
-                <div class="card-body" >
-                    <h5 class="card-title text-center style"> Git and GitHub basics</h5>
-                    <p class="card-text text-center font">Coordinating work among programmers during development.</p>
-                </div>    
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-            <div class="card">
-                <img class="card-img-top" src="c++.png" style="  padding: 10px 40px 10px 40px;">
-                <div class="card-body"  style="  padding: 10px 40px 10px 40px;">
-                    <h5 class="card-title text-center style">C++ basics</h5>
-                    <p class="card-text text-center font">Logical problem solving using the C++ programming language.</p>
-                </div>    
-            </div>
-        </div>
-    </div>
-</div>
 
 <!--Footer section-->
 <div>
-    <blockquote id= "footer" class="blockquote text-center">
-        <hr class="hrt">
-            <a href="./contact.html" style="color:#20052c; font-family: 'Parisienne'; font-size: 60px;">
+    <blockquote class="blockquote text-center">
+        <hr id= "footer">
+            <a href="./contact.html" style="color: black;font-family: 'Parisienne'; font-size: 60px;">
                 <div>Contact Me</div></a>
-        <hr class="hrb">
+        <hr id= "footer">
     </blockquote>
-</div>
-
-
-<div class="container1">
-            <div>
-                <div style="text-align: center;" class="bootstrap"><i class="fab fa-bootstrap"></i></div>
-                <div class="font">  Bootstrap4</div>
-            </div>
-            <div>
-                <div style="text-align: center;"  class="FA"><i class="fab fa-font-awesome"></i></div>
-                <div class="font">fontAwesome</div>
-            </div>
-            <div>
-                <div style="text-align: center;"  class="css"><i class="fab fa-css3-alt"></i></div>
-                <div class="font">  CSS3</div>
-            </div>
-            <div>
-                <div style="text-align: center;"  class="JS"><i class="fab fa-js"></i></div>
-                <div class="font">  JavaScript</div>
-            </div>
-            
-            <div>
-                <div style="text-align: center;"  class="Google"><i class="fab fa-google"></i></div>
-                <div class="font">  Google Fonts</div>
-            </div>
 </div>
 
 <script src="dom.js"></script>
