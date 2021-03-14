@@ -1,4 +1,6 @@
-document.querySelector(".data").addEventListener("click", () => {
+
+let button = document.querySelector(".data");
+  button.addEventListener("click", () => {
   button.classList.toggle("active");
 }), false;
 
