@@ -4,11 +4,6 @@ let button = document.querySelector(".data");
   button.classList.toggle("active");
 }), false;
 
-document.querySelectorAll(".hola").forEach(item => item.addEventListener("mouseover", () => {
-  item.classList.toggle("active");
-}),
-  false);
-
 document.querySelectorAll("hr").forEach(lol => lol.addEventListener("mouseover", () => {
   lol.classList.toggle("active");
 }),

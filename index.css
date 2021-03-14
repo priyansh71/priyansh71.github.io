@@ -80,48 +80,46 @@
   width: 100%;
   background-image: url(./pics/stairs.jpg);
   font-family: monospace;
-  color: white;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  color: white; 
 }
-.hola.active {
-  color: #20052c;
-  font-family: "Tangerine";
-  background: #f3f3f1;
-  font-size: 80px;
+.drop{
+  font-size: 100%;
+  color: #0f0d0d;
 }
 .hola {
   width: 100%;
-  color: whitesmoke;
+  color: #110217;
   font-weight: 500;
   font-size: 80px;
   font-family: "Tangerine";
-  background-image: url(./pics/leaves.jpg);
   font-style: italic;
   font-weight: lighter;
+}
+.fas.fa-caret-down:{
+  font-size: 100%;
 }
 .head {
   font-family: Architects Daughter;
   font-size: 300%;
-  color: #2a0438;
+  color: #1a0322;
 }
 hr {
   border: 1px solid whitesmoke;
 }
 .hrt {
-  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   width: 65%;
   padding-bottom: 25px;
 }
 .profile {
   font-family: "Dancing Script";
-  font-size: 220%;
-  padding: 10px;
+  font-size: 190%;
+  padding: 40px;
 }
 
 .hrb {
   padding-bottom: 25px;
-  border-top: 2px solid grey;
+  border-top: 2px solid black;
   width: 65%;
 }
 .style {
