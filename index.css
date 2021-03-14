@@ -131,55 +131,13 @@ hr {
   font-size: 30px;
 }
 .avatar {
-  /* vertical-align: middle; */
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
-/* .alpha {
-  position: relative;
-  animation: mymove 5s;
-  animation-iteration-count: 1;
-}
-@keyframes mymove {
-  from {
-    left: 0px;
-  }
-  to {
-    left: 15px;
-  }
-}
-.beta {
-  display: flex;
-  align-content: center;
-  position: relative;
-  animation: mymove1 5s;
-  animation-iteration-count: 1;
-}
-@keyframes mymove1 {
-  from {
-    left: 20px;
-  }
-  to {
-    left: 35px;
-  }
-}
-.gamma {
-  position: relative;
-  animation: mymove2 5s;
-  animation-iteration-count: 1;
-}
-@keyframes mymove2 {
-  from {
-    left: 40px;
-  }
-  to {
-    left: 55px;
-  }
-} */
 .card-img-top {
   padding-top: 10px;
   padding-left: 5px;
