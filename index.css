@@ -78,10 +78,11 @@
 }
 .data.active {
   width: 100%;
-  background-image: url(./pics/galaxy.jpg);
+  background-image: url(./pics/stairs.jpg);
   font-family: monospace;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .hola.active {
   color: #20052c;
