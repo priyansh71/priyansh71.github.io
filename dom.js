@@ -14,11 +14,6 @@ document.querySelectorAll(".contact").forEach(notokay => notokay.addEventListene
 }),
   false);
 
-document.querySelectorAll(".fiesta").forEach(infinite=> infinite.addEventListener("mouseover", () => {
-  infinite.classList.toggle("active");
-}),
-  false);
-
 document.querySelectorAll(".nav-link").forEach(haha => haha.addEventListener("click", () => {
   haha.classList.toggle("active");
 }),
