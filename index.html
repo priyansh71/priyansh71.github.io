@@ -27,7 +27,7 @@
 <body>
     <style>
         body{
-            background-image: url(./pics/pexels.jpg);
+            background-image: url(./pics/bg.jpg)   ;
         }
     </style>
     
@@ -56,7 +56,7 @@
             <a class="nav-link" href="#achievments">Achievments</a>
             </li>
         <li class="nav-item">
-            <a class="nav-link" href="#footer">Connect</a>
+            <a class="nav-link" href="#contact">Connect</a>
         </li>
         
     </ul>
@@ -68,9 +68,9 @@
 <div style="padding: 50px 0px 50px 0 px;"  id="Profile" >  
     <button type="button" class="data" data-toggle="collapse" data-target="#info" >
                 <blockquote class="blockquote" >
-                    <div style="font-family: 'Parisienne'; font-size: 60px;" class="middle">
+                    <div style="font-family: 'Parisienne'; font-size: 80px;" class="middle">
                         About Me
-                        <span> <i class="fas fa-chevron-down icon"  style="padding-top: 18px;"></i></span>
+                        <span <i class="fas fa-chevron-down icon"  style="padding-top: 18px;"></i></span>
                     </div>
                 </blockquote>
     </button>
@@ -78,10 +78,11 @@
 
 <div id="info" class="collapse"  style="background-image:url(./pics/info.jpg);">
     <div class="container-fluid" style="padding: 10px;">
-        <div class="row text-center" style="padding-top: 10px; padding-bottom: 5px;">
+        <div class="row text-center" style="padding-top: 30px; padding-bottom: 30px;">
                 <img src="./pics/piii.jpg" class="avatar">
         </div>
     </div>    
+    <hr class="hrt">
     <div class="container-fluid"">
         <div class="row text-center">
             <div class="col-sm-12 col-lg-12" >
@@ -89,24 +90,32 @@
                     I am a First Year student from Bikaner, Rajasthan, majoring in Computer Science from BITS Pilani University, K.K. Birla Goa Campus,
                     and will be graduating in the year 2024.
                 </div>
+                <hr class="hrb">
                 <div class="profile">
                     I am an active member of the <span><a href="https://devsoc.club/" target="blank"> Developer's Society</a></span> 
                    (Position: Junior Developer) and <span><a href="https://www.linkedin.com/company/bitskrieg/mycompany/" target="blank"> BITSkreig</a></span> at the campus.
                    I have a great interest in Mathematics, Football and enjoy listening to music produced by the band Linkin Park.
                 </div>
+                
             </div>
         </div>
     </div>
 </div>
+<br>
+<br>
 
 <!--Education header-->
-<div>
-    <blockquote id="education" class= "blockquote text-center hola">
-        <hr class="hrt">
-            <div>Education</div>
-        <hr class="hrb">
-    </blockquote>
-</div>
+    <section id= "education">
+        <div>
+            <blockquote  class="blockquote text-center hola">
+                <hr class="hrt">
+                    <div style="padding: 30px;" > Education</div>
+                <hr class="hrb">
+            </blockquote>
+        </div>
+        <br>
+
+
 
 <!--Education carousel-->
 <div id="slider" class="carousel slide" data-ride="carousel" style="padding: 10px;">
@@ -139,97 +148,120 @@
             <span class="sr-only">Next</span>
         </a>
 </div>
+</section>
+
+<br>
+<br>
 
 
 <!--Skills header-->
-<div>
-<blockquote id= "skills" class="blockquote text-center hola">
-    <hr class="hrt">
-        <div>Skills</div>
-    <hr class="hrb">
-</blockquote>
-</div>
+<section id= "skills">
+    <div>
+        <blockquote  class="blockquote text-center hola">
+            <hr class="hrt">
+                <div style="padding: 30px;">Skills</div>
+            <hr class="hrb">
+        </blockquote>
+    </div>
 
+    <br>
+
+    
 <!--Skills data-->
 <div class="container-fluid" style="padding: 10px;">
     <div class="row">
-        <div class="col-md-3 col-sm-6">
-            <div class="card">
+        <div class="col-md-3 col-sm-6" style="padding: 10px;">
+            <div class="card active">
                 <div class="card-body">
                     <h5 class="card-title text-center style middle" style=" padding: 5px 20px 5px 20 px;">Basic Web Dev.</h5>
-                    <p class="card-text text-center font middle" style=" padding: 15px;">Using CSS3 and Bootstrap4 to make responsive webpages.</p>
+                    <p class="card-text text-center font middle" style=" padding: 15px;">Using CSS3, Bootstrap4 and Vanilla JavaScript to make responsive webpages.</p>
                 </div>    
             </div>
         </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="card">
-                <div class="card-body" >
+        <div class="col-md-3 col-sm-6" style="padding: 10px;">
+            <div class="card active">
+                <div class="card-body" style="padding: 15px;" >
                     <h5 class="card-title text-center style middle" style=" padding: 5px 20px 5px 20 px;"> Git and GitHub</h5>
                     <p class="card-text text-center font middle" style=" padding: 15px;">Coordinating work among programmers during development.</p>
                 </div>    
             </div>
         </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="card">
+        <div class="col-md-3 col-sm-6" style="padding: 10px;">
+            <div class="card active">
                 <div class="card-body">
                     <h5 class="card-title text-center style middle" style=" padding: 5px 20px 5px 20 px;">C++</h5>
                     <p class="card-text text-center font middle" style=" padding: 15px;">Logical problem solving using the C++ programming language.</p>
                 </div>    
             </div>
         </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="card">
+        <div class="col-md-3 col-sm-6"style="padding: 10px;" >
+            <div class="card active" >
                 <div class="card-body">
-                    <h6 class="card-title text-center style middle" style=" padding: 5px 20px 5px 20 px;">Computer Science</h6>
-                    <p class="card-text text-center font middle" style=" padding: 15px;">Fluent in basics of node.js, Python, C and JavaScript.</p>
+                    <h5 class="card-title text-center style middle" style=" padding: 5px 20px 5px 20 px;">Computer Science</h5>
+                    <p class="card-text text-center font middle" style=" padding: 15px;">Fluent in basics of Linux, node.js, Python, C and JavaScript.</p>
                 </div>    
             </div>
         </div>
     </div>
 </div>
+</section>
+
+<br>
+<br>
 
 <!--Achievments header-->
+<section id= "achievments">
 <div>
-    <blockquote id= "achievments" class="blockquote text-center hola">
+    <blockquote  class="blockquote text-center hola">
         <hr class="hrt">
-            <div>Achievments</div>
+            <div style="padding: 30px;">Achievments</div>
         <hr class="hrb">
     </blockquote>
 </div>
+<br>
+
+
 
 <!--Achievments data-->
 <div class="container2">
-        <div  >
-            <h1 class="middle"><i class="fas fa-flask"></i></h1>
-            <h2 style="font-family: Ribeye Marrow;" class="middle">CBSE 12th Grade</h2>
+        <div class="expand">
+            <div class="display-4 middle"><i class="fas fa-flask"></i></div>
+            <div class="achieve middle">CBSE 12th Grade</div>
             <p class="font1 middle">Scored 96.2%.</p>
         </div>
         <div   >
-            <h1 class="middle"><i class="fas fa-trophy"></i></h1> 
-            <h2 style="font-family: Ribeye Marrow;" class="middle">JEE Advanced 2020</h2>
+            <h1 class="display-4 middle"><i class="fas fa-trophy"></i></h1> 
+            <div class="achieve middle">JEE Advanced 2020</div>
             <p class="font1 middle">Achieved AIR-3277</p>
         </div>
         <div  >
-           <h1 class="middle"> <i class="fas fa-pen"></i> </h1>
-           <h2 style="font-family: Ribeye Marrow;" class="middle">JEE Main 2020</h2>
+           <h1 class="display-4 middle"> <i class="fas fa-pen"></i> </h1>
+           <div  class="achieve middle">JEE Main 2020</div>
            <p class="font1 middle">Achieved AIR-5026</p>
         </div>
     </div>
 </div>
+</section>
 
+<br>
+<br>
+<br>
 
 <!--Footer section-->
-<div>
+<section id="contact">
     <blockquote class="blockquote text-center">
-        <hr id= "footer">
+        <hr class= "footer">
             <a href="./contact.html" style="color: black;font-family: 'Parisienne'; font-size: 60px;">
-                <div>
+                <div style="padding: 30px;">
                     Contact Me
                     <span> <i class="fas fa-forward icon"  style="padding-top: 18px;"></i></span>
                 </div></a>
-        <hr id= "footer">
+        <hr class= "footer">
     </blockquote>
-</div>
+</section>
+
+<br>
+<br>
 
 <div class="copyright middle"><i class="far fa-copyright" style="padding-top: 2px;"></i>2021 Priyansh Vyas.</div>
 <script src="dom.js"></script>

@@ -7,7 +7,7 @@
 .carousel-indicators .active {
   background-color: whitesmoke;
 }
-.middle{
+.middle {
   text-align: center;
   max-width: 100%;
   display: flex;
@@ -24,10 +24,10 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:space-around;
+  justify-content: space-around;
 }
-.container2 > div{
-    padding: 40px;
+.container2 > div {
+  padding: 40px;
 }
 .lol {
   background-color: #20052c;
@@ -63,10 +63,14 @@
   font-size: 200%;
   padding: 10px;
 }
+.achieve {
+  font-size: 250%;
+  font-family: "Ribeye Marrow";
+}
 .font1 {
   font-family: Courgette;
   font-weight: 200;
-  font-size: 120%;
+  font-size: 160%;
 }
 .font {
   font-weight: 400;
@@ -74,7 +78,7 @@
   font-size: 200%;
   color: #000000;
 }
-.copyright{
+.copyright {
   font-weight: 400;
   font-family: "Caveat";
   font-size: 150%;
@@ -101,9 +105,9 @@
   width: 100%;
   background-image: url(./pics/stairs.jpg);
   font-family: monospace;
-  color: white; 
+  color: white;
 }
-.drop{
+.drop {
   font-size: 100%;
   color: #0f0d0d;
 }
@@ -111,12 +115,15 @@
   width: 100%;
   color: #110217;
   font-weight: 500;
-  font-size: 80px;
-  font-family: "Tangerine";
-  font-style: italic;
+  font-size: 70px;
+  font-family: "Dancing Script";
   font-weight: lighter;
+  padding: 10px;
 }
-.fas.fa-caret-down{
+.hola.active {
+  font-size: 100px;
+}
+.fas.fa-caret-down {
   font-size: 100%;
 }
 .head {
@@ -128,9 +135,9 @@ hr {
   border: 1px solid whitesmoke;
 }
 .hrt {
-  border-bottom: 2px solid black;
+  border: 0.7px solid #121212;
   width: 65%;
-  padding-bottom: 25px;
+  /* padding-bottom: 25px; */
 }
 .profile {
   font-family: "Dancing Script";
@@ -139,15 +146,15 @@ hr {
 }
 
 .hrb {
-  padding-bottom: 25px;
-  border-top: 2px solid black;
+  /* padding-bottom: 25px; */
+  border: 0.7px solid #121212;
   width: 65%;
 }
 .style {
   font-weight: lighter;
   font-family: "Ribeye Marrow";
   color: #070f07;
-  font-size: 30px;
+  font-size: 40px;
 }
 .avatar {
   width: 150px;
@@ -201,11 +208,18 @@ hr {
 .credit {
   font-size: 280%;
 }
-#footer {
+.footer {
   max-width: 70%;
-  border: 1.5px solid #20052c;
+  border: 0.7px solid #20052c;
 }
 .card {
-  background-color: #e7e7e7;
+  background-color: #fefefe;
   text-align: center;
+  font-size: 120%;
+}
+.card.active {
+  font-size: 130%;
+  border: 0px;
+  border: 1px solid black;
+  background-color: #fefefe;
 }
