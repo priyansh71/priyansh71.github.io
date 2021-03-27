@@ -3,6 +3,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 1.2px solid black;
 }
 .carousel-indicators .active {
   background-color: whitesmoke;
@@ -68,14 +69,14 @@
   font-family: "Ribeye Marrow";
 }
 .font1 {
-  font-family: Courgette;
+  font-family: 'Quicksand';
   font-weight: 200;
   font-size: 160%;
 }
 .font {
   font-weight: 400;
-  font-family: "Caveat";
-  font-size: 200%;
+  font-family: 'Quicksand';
+  font-size: 150%;
   color: #000000;
 }
 .copyright {
@@ -96,7 +97,7 @@
 }
 .data {
   width: 100%;
-  color: #20052c;
+  color: #000000;
   background-color: white;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -113,10 +114,10 @@
 }
 .hola {
   width: 100%;
-  color: #110217;
+  color: #15031f;
   font-weight: 500;
-  font-size: 70px;
-  font-family: "Dancing Script";
+  font-size: 65px;
+  font-family: "Satisfy";
   font-weight: lighter;
   padding: 10px;
 }
@@ -140,9 +141,10 @@ hr {
   /* padding-bottom: 25px; */
 }
 .profile {
-  font-family: "Dancing Script";
+  font-family: "Kalam" , 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
   font-size: 190%;
   padding: 40px;
+  color: black;
 }
 
 .hrb {
@@ -163,6 +165,7 @@ hr {
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  border: 0.5px solid black;
 }
 .linkedin {
   color: #51adf0;
@@ -213,13 +216,12 @@ hr {
   border: 0.7px solid #20052c;
 }
 .card {
-  background-color: #fefefe;
   text-align: center;
   font-size: 120%;
+  border: 1px solid black;
 }
-.card.active {
+/* .card.active {
   font-size: 130%;
   border: 0px;
   border: 1px solid black;
-  background-color: #fefefe;
-}
+} */
