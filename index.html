@@ -36,8 +36,7 @@
     </style>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top"
-        style="background-image: url(./pics/reso.jpg);">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light" style="background-image: url(./pics/reso.jpg);">
 
         <!-- Brand -->
         <a class="navbar-brand" href="#">
@@ -98,7 +97,7 @@
                     University, K.K. Birla Goa Campus,
                     and will be graduating in the year 2024.
                 </div>
-                <hr class="hrb">
+                <hr class="hrc">
                 <div class="profile">
                     I am an active member of the <span><a href="https://devsoc.club/" target="blank"> Developer's
                             Society</a></span>
@@ -139,14 +138,15 @@
                 <div class="carousel-item active">
                     <div class="image"><img src="./pics/school.jpg"></div>
                     <div class="carousel-caption" style="font-family: 'Quicksand' ">
-                        <h1 class="font-weight-light" style="font-size: 200%;">Bikaner Boys' School</h1>
+                        <h1 class="font-weight-light" style="font-size: 150%;">Bikaner Boys' School</h1>
                         <p class="font-italic" style="font-size: 100%;">2008-18.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="image"><img src="./pics/campus.png"></div>
                     <div class="carousel-caption">
-                        <h1 class="font-weight-light" style="font-size: 200%;">BITS Pilani Goa Campus</h1>
+                        <h1 class="font-weight-light" style="font-size: 150%;overflow-wrap: break-word;">BITS Pilani Goa
+                            Campus</h1>
                         <p class="font-italic" style="font-size: 100%;">2020-24.</p>
                     </div>
                 </div>
@@ -188,7 +188,7 @@
                             <h5 class="card-title text-center style middle"
                                 style=" padding: 5px 20px 5px 20 px; margin: 20px;">
                                 Development.</h5>
-                            <p class="card-text text-center font middle" style=" padding: 15px;">Using JavaScript Git
+                            <p class="card-text text-center font middle" style=" padding: 15px;">Using JavaScript, Git
                                 and
                                 Bootstrap4 to make responsive webpage projects.</p>
                         </div>
@@ -312,6 +312,37 @@
 
     <div class="copyright middle"><i class="far fa-copyright" style="padding-top: 2px;"></i>2021 Priyansh Vyas.</div>
     <script src="dom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+
+        // $('.carousel').carousel({
+        //     interval: 5000
+        // })
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 1200, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 </body>
 
 </html>

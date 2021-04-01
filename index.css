@@ -1,9 +1,11 @@
 .carousel-inner img {
-  height: 20% !important;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 1.2px solid black;
+  border: 1px thin black;
+  width: 66%;
+  height: 44%;
+  margin : auto;
 }
 .carousel-indicators .active {
   background-color: whitesmoke;
@@ -71,13 +73,14 @@
 .font1 {
   font-family: 'Quicksand';
   font-weight: 200;
-  font-size: 160%;
+  font-size: 140%;
 }
 .font {
   font-weight: 400;
-  font-family: 'Quicksand';
-  font-size: 150%;
+  font-family: 'Satisfy';
+  font-size: 170%;
   color: #000000;
+  overflow-wrap: break-word;
 }
 .copyright {
   font-weight: 400;
@@ -114,7 +117,6 @@
 }
 .hola {
   width: 100%;
-  color: #15031f;
   font-weight: 500;
   font-size: 65px;
   font-family: "Satisfy";
@@ -138,17 +140,21 @@ hr {
 .hrt {
   border: 0.7px solid #121212;
   width: 65%;
-  /* padding-bottom: 25px; */
 }
 .profile {
   font-family: "Kalam" , 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-  font-size: 190%;
-  padding: 40px;
+  font-size: 178%;
+  padding: 40px 70px;
   color: black;
+  overflow-wrap: break-word;
+}
+.hrc{
+  border: 0.7px solid #121212;
+  width: 80%;
+
 }
 
 .hrb {
-  /* padding-bottom: 25px; */
   border: 0.7px solid #121212;
   width: 65%;
 }
