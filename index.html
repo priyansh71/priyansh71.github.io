@@ -312,12 +312,15 @@
 
     <div class="copyright middle"><i class="far fa-copyright" style="padding-top: 2px;"></i>2021 Priyansh Vyas.</div>
     <script src="dom.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 4000
+        })
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
 
-        // $('.carousel').carousel({
-        //     interval: 5000
-        // })
+
         $(document).ready(function () {
             // Add smooth scrolling to all links
             $("a").on('click', function (event) {
