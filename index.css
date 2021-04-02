@@ -7,9 +7,7 @@
   height: 44%;
   margin : auto;
 }
-.carousel-indicators .active {
-  background-color: whitesmoke;
-}
+
 .middle {
   text-align: center;
   max-width: 100%;
@@ -120,7 +118,6 @@
   font-weight: 500;
   font-size: 65px;
   font-family: "Satisfy";
-  font-weight: lighter;
   padding: 10px;
 }
 .hola.active {
@@ -163,6 +160,8 @@ hr {
   font-family: "Ribeye Marrow";
   color: #070f07;
   font-size: 40px;
+  overflow-wrap: break-word;
+max-width: 90%;
 }
 .avatar {
   width: 150px;
@@ -226,8 +225,11 @@ hr {
   font-size: 120%;
   border: 1px solid black;
 }
-/* .card.active {
-  font-size: 130%;
-  border: 0px;
-  border: 1px solid black;
-} */
+.carousel-caption{
+  font-size: 1.2em;
+  overflow-wrap: break-word;
+  position: relative;
+  color: black;
+  padding-bottom: 5px;
+  width:90%;
+}
